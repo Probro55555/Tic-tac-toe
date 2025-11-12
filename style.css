@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.turn {
+    font-size: 50px;
+
+}
+
+
+
+.box {
+    display: grid;
+    height: 420px;
+    width: 420px;
+   
+    /* position: relative;
+    top: 100px;
+    left: 600px;
+    height: 600px;
+    width: 600px; */
+    
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+#nine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.reset {
+    height: 50px;
+    width: 160px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 25px;
+    
+}
+.navi {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+    
+}
+.buttons {
+    display: flex;
+    
+}
